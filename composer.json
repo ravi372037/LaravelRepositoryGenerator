@@ -1,0 +1,22 @@
+{
+    "name": "ravisaini/laravel-repository-generator",
+    "description": "A Laravel package to generate repositories with auto binding",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RaviSaini\\LaravelRepositoryGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaviSaini\\LaravelRepositoryGenerator\\LaravelRepositoryGeneratorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10 || ^11"
+    }
+}
