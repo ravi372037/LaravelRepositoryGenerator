@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf14b67192ca2809589f6306ec3033aab
+class ComposerStaticInit47bb7b7a9d79dfdd5c65f6cf52e6d9ee
 {
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'L' => 
         array (
-            'RaviSaini\\LaravelRepositoryGenerator\\' => 37,
+            'LaravelRepositoryGenerator\\' => 27,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'RaviSaini\\LaravelRepositoryGenerator\\' => 
+        'LaravelRepositoryGenerator\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInitf14b67192ca2809589f6306ec3033aab
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf14b67192ca2809589f6306ec3033aab::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf14b67192ca2809589f6306ec3033aab::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitf14b67192ca2809589f6306ec3033aab::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit47bb7b7a9d79dfdd5c65f6cf52e6d9ee::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit47bb7b7a9d79dfdd5c65f6cf52e6d9ee::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit47bb7b7a9d79dfdd5c65f6cf52e6d9ee::$classMap;
 
         }, null, ClassLoader::class);
     }

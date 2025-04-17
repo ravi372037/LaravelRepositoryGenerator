@@ -5,13 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "RaviSaini\\LaravelRepositoryGenerator\\": "src/"
+            "LaravelRepositoryGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "RaviSaini\\LaravelRepositoryGenerator\\LaravelRepositoryGeneratorServiceProvider"
+                "LaravelRepositoryGenerator\\LaravelRepositoryGeneratorServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace RaviSaini\LaravelRepositoryGenerator;
+namespace LaravelRepositoryGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use RaviSaini\LaravelRepositoryGenerator\Commands\MakeRepository;
+use LaravelRepositoryGenerator\Commands\MakeRepository;
 
 class LaravelRepositoryGeneratorServiceProvider extends ServiceProvider
 {

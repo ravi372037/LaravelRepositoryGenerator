@@ -1,6 +1,6 @@
 <?php
 
-namespace RaviSaini\LaravelRepositoryGenerator\Commands;
+namespace LaravelRepositoryGenerator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
@@ -17,7 +17,11 @@ class MakeRepository extends Command
         $this->createInterface($name);
         $this->createRepository($name);
         $this->registerBinding($name);
-        $this->info("Repository and Interface created + auto-registered!");
+
+        $this->info("🎉 Repository and Interface created successfully!");
+        $this->line("📂 Interface: app/Repositories/Interfaces/{$name}Interface.php");
+        $this->line("📂 Repository: app/Repositories/{$name}.php");
+        $this->line("🔗 Auto-registered in: app/Providers/AppServiceProvider.php");
     }
 
     protected function createInterface($name)

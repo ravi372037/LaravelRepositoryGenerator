@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'RaviSaini\\LaravelRepositoryGenerator\\' => array($baseDir . '/src'),
+    'LaravelRepositoryGenerator\\' => array($baseDir . '/src'),
 );
